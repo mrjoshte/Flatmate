@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="centerBlueButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">200dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">#3fa9f5</item>
+    </style>
+
+    <style name="bottomRightBlueButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">#3fa9f5</item>
+        <item name="android:text">Continue</item>
+    </style>
+
+    <style name="centerOrangeButton">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">350dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">#ff6b35</item>
+    </style>
+
+    <style name="usernameField">
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:hint">Username</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="passwordField">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">Password</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="menuBar">
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">left|start</item>
+    </style>
+
+</resources>

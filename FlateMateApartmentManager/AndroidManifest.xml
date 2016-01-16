@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flatemateapartmentmanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:name="activityfiles.AndroidApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="activityfiles.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activityfiles.CreateOptions"
+            android:label="@string/title_activity_create_options" >
+        </activity>
+        <activity
+            android:name="activityfiles.CreateFlat"
+            android:label="@string/title_activity_create_apartent" >
+        </activity>
+        <activity
+            android:name="activityfiles.JoinFlat"
+            android:label="@string/title_activity_join_apartment" >
+        </activity>
+        <activity
+            android:name="activityfiles.AddRoommates"
+            android:label="@string/title_activity_add_roommates" >
+        </activity>
+        <activity
+            android:name="activityfiles.LandlordLoginActivity"
+            android:label="@string/title_activity_landlord_login" >
+        </activity>
+        <activity
+            android:name="activityfiles.LandLordCreatePropertyActivity"
+            android:label="@string/title_activity_land_lord_create_property" >
+        </activity>
+        <activity
+            android:name="activityfiles.Create_user_account"
+            android:label="@string/title_activity_create_user_account" >
+        </activity>
+        <activity
+            android:name="activityfiles.CreateLandlordApartment"
+            android:label="@string/title_activity_create_landlord_apartment" >
+        </activity>
+        <activity
+            android:name="activityfiles.LandlordAddUnits"
+            android:label="@string/title_activity_landlord_add_units" >
+        </activity>
+        <activity
+            android:name="activityfiles.AtAGlancePage"
+            android:label="@string/title_activity_at_aglance_page" >
+        </activity>
+        <activity
+            android:name="activityfiles.LandlordHomePage"
+            android:label="@string/title_activity_landlord_home_page" >
+        </activity>
+        <activity
+            android:name="activityfiles.Chat"
+            android:label="@string/title_activity_chat"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="activityfiles.Lists"
+            android:label="@string/title_activity_lists" >
+        </activity>
+        <activity
+            android:name="activityfiles.SingleFlatManagerActivity"
+            android:label="@string/title_activity_single_flat_manager" >
+        </activity>
+        <activity
+            android:name="activityfiles.Alerts"
+            android:label="@string/title_activity_alerts" >
+        </activity>
+        <activity
+            android:name="activityfiles.RemoveUser"
+            android:label="@string/title_activity_remove_user" >
+        </activity>
+        <activity
+            android:name="activityfiles.TransferAdmin"
+            android:label="@string/title_activity_transfer_admin" >
+        </activity>
+        <activity
+            android:name="activityfiles.UnitStatusActivity"
+            android:label="@string/title_activity_unit_status" >
+        </activity>
+        <activity
+            android:name="activityfiles.ManageTenantsActivity"
+            android:label="@string/title_activity_manage_tenants" >
+        </activity>
+        <activity
+            android:name="activityfiles.IndividualTenantActivity"
+            android:label="@string/title_activity_individual_tenant" >
+        </activity>
+        <activity
+            android:name="activityfiles.Expenses"
+            android:label="@string/title_activity_expenses" >
+        </activity>
+        <activity
+            android:name="activityfiles.Lists"
+            android:label="@string/title_activity_lists" >
+        </activity>
+        <activity
+            android:name="activityfiles.SingleFlatManagerActivity"
+            android:label="@string/title_activity_single_flat_manager" >
+        </activity>
+        <activity
+            android:name="activityfiles.Alerts"
+            android:label="@string/title_activity_alerts" >
+        </activity>
+        <activity
+            android:name="activityfiles.RemoveUser"
+            android:label="@string/title_activity_remove_user" >
+        </activity>
+        <activity
+            android:name="activityfiles.TransferAdmin"
+            android:label="@string/title_activity_transfer_admin" >
+        </activity>
+        <activity
+            android:name="activityfiles.UnitStatusActivity"
+            android:label="@string/title_activity_unit_status" >
+        </activity>
+        <activity
+            android:name="activityfiles.ManageTenantsActivity"
+            android:label="@string/title_activity_manage_tenants" >
+        </activity>
+        <activity
+            android:name="activityfiles.IndividualTenantActivity"
+            android:label="@string/title_activity_individual_tenant" >
+        </activity>
+    </application>
+
+</manifest>

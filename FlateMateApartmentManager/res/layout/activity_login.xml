@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+   android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+   android:paddingRight="@dimen/activity_horizontal_margin"
+   android:paddingTop="@dimen/activity_vertical_margin"
+   android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+   android:background="#626465">
+   
+   <TextView android:text="Flatmate" android:layout_width="wrap_content"
+      android:textColor="#ff6b35"
+      android:layout_height="wrap_content"
+      android:id="@+id/FlateMateHeaderText"
+      android:textSize="50dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true" />
+      
+   <EditText
+       android:id="@+id/userIdTextField"
+       style="@style/usernameField"
+       android:layout_marginTop="100dp" />
+
+   <EditText
+      android:id="@+id/passwordTextField"
+      style="@style/passwordField"
+      android:layout_marginTop="150dp"/>
+      
+   <Button
+      android:id="@+id/loginButton"
+      style="@style/centerBlueButton"
+      android:text="Login" />
+   
+   <Button
+      android:id="@+id/createButtonAddUnitID"
+      style="@style/centerOrangeButton"
+      android:text="Create"/>
+
+   <TextView
+       android:id="@+id/infoDisplayText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="270dp"
+       android:text="Don't have an account yet? Create one today."
+       android:textColor="#ffffff"
+       android:textSize="24dp"
+       android:gravity="center"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

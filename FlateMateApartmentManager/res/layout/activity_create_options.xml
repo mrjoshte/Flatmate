@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="activityfiles.CreateOptions" 
+    android:background="#626465">
+    
+   	<TextView
+        android:id="@+id/createPageDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="What would you like to create?"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/joinFlatButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/createLandlordButton"
+        android:layout_alignRight="@+id/createLandlordButton"
+        android:layout_marginTop="100dp"
+        android:background="#3fa9f5"
+        android:text="Join Flat" />
+
+
+    <Button
+        android:id="@+id/createLandlordButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/joinApartmentButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:background="#3fa9f5"
+        android:text="Create Landlord Account" />
+
+    <Button
+        android:id="@+id/createFlatButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/joinApartmentButton"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@+id/joinApartmentButton"
+        android:layout_marginTop="250dp"
+        android:background="#3fa9f5"
+        android:text="Create Flat" />
+
+</RelativeLayout>

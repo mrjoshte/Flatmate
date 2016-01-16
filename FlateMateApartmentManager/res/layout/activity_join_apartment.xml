@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="#626465" >
+
+    <TextView
+        android:id="@+id/HeaderJoinPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff6b35"
+        android:layout_marginTop="25dp"
+        android:text="Join Apartment"
+      	android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/SubTextJoinPage"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HeaderJoinPage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        android:text="Just enter your apartment password and you&apos;re good to go!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+    
+    <Button
+        android:id="@+id/ContinueButtonJoinPage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EnterApartPassJoinPage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="#3fa9f5"
+        android:text="Continue" />
+
+    <EditText
+        android:id="@+id/EnterApartPassJoinPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SubTextJoinPage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:ems="13"
+        android:gravity="center_vertical"
+        android:hint="Enter Apartment Password"
+        android:textColorHint="#ffffff" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

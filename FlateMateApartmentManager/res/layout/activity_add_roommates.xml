@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#626465"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="activityfiles.AddRoommates" >
+
+    <TextView
+        android:id="@+id/headerAddRoommates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Add Roommates to your Apartment"
+        android:textColor="#ff6b35"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/inviteButtonInAddRoommates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#3fa9f5"
+        android:text="Invite" />
+
+    <EditText
+        android:id="@+id/roommateOneEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/headerAddRoommates"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Roommate 1 Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/roommateTwoEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/roommateOneEmail"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Roommate 2 Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/roommateThreeEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/roommateTwoEmail"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Roommate 3 Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/roommateFourEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/roommateThreeEmail"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Roommate 4 Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#ffffff" />
+
+</RelativeLayout>
